@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+#verification_heading {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#verification_subtext {
+    margin-bottom: 30px;
+}
+
+.code-container {
+    display: flex;
+    justify-content: center;
+}
+
+.code {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0 5px;
+}
