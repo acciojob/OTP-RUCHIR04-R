@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <title>OTP Verification</title>
 </head>
 <body>
     <h1 id="verification_heading">Verify Your Account</h1>
-    <p id="verification_subtext">Please enter the 6-digit code sent to your mobile number.</p>
+    <p id="verification_subtext">Please enter the OTP sent to your registered mobile number.</p>
     <div class="code-container">
-        <input type="text" class="code" maxlength="1" />
-        <input type="text" class="code" maxlength="1" />
-        <input type="text" class="code" maxlength="1" />
-        <input type="text" class="code" maxlength="1" />
-        <input type="text" class="code" maxlength="1" />
-        <input type="text" class="code" maxlength="1" />
+        <input type="text" id="code-1" class="code" maxlength="1" autofocus>
+        <input type="text" id="code-2" class="code" maxlength="1">
+        <input type="text" id="code-3" class="code" maxlength="1">
+        <input type="text" id="code-4" class="code" maxlength="1">
+        <input type="text" id="code-5" class="code" maxlength="1">
+        <input type="text" id="code-6" class="code" maxlength="1">
     </div>
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 </html>
-
